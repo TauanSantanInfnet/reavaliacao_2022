@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AT_Empresa" />
+        <module name="AT_Usuario" />
+        <module name="AT_Web" />
+        <module name="AT_Vagas" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AT_Empresa" target="11" />
+      <module name="AT_Usuario" target="11" />
+      <module name="AT_Vagas" target="11" />
+      <module name="AT_Web" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AT_Empresa" options="-parameters" />
+      <module name="AT_Usuario" options="-parameters" />
+      <module name="AT_Vagas" options="-parameters" />
+      <module name="AT_Web" options="-parameters" />
+    </option>
+  </component>
+</project>
